@@ -1,4 +1,5 @@
----
----
+.hero {
 
-@import "{{ site.theme }}";
+    background-image: url("https://media.discordapp.net/attachments/1198396906137714808/1198397691504377866/IMG_9214.png?ex=65bec1d2&is=65ac4cd2&hm=c780efa119cae5b5e1292e33422ee4fc01d17aff37dbad8258032643fd1c89a4&=&format=webp&quality=lossless&width=679&height=509");
+
+    }
