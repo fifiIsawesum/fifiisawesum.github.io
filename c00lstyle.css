@@ -1,0 +1,26 @@
+    .dimg {
+        margin-left: -235px;
+        margin-top: 225px;
+    }
+    .aimg {
+        margin-left: -335px;
+        margin-top: 325px;
+    }
+h2 {
+
+    color:#ffffff
+
+    }
+    p {
+
+        color:#ffffff
+    
+        }
+
+    .fixe {
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        width: 30px;
+
+    }
