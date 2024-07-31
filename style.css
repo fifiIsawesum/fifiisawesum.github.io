@@ -9,7 +9,14 @@
     -webkit-transition-duration: 0.46s; 
     -webkit-transition-timing-function: ease; 
     } 
-
+    .d {
+        margin-left: -395px;
+        margin-top: -4px;
+    }
+    audio {
+        float: bottom;
+        margin-top:234px;
+      }
     .icon1 { 
         margin-left: -273px;
         margin-top: 305px;
@@ -44,7 +51,10 @@
     .thumbnail:hover { 
     transform: scale(1.2); 
     }
-
+    .heshere {
+        margin-left: 765px;
+        margin-top: -4px;
+    }
     .wallimg {
         margin-left: -820px;
         margin-top: 168px;
@@ -57,6 +67,14 @@
     .nyan {
         margin-left: -325px;
         margin-top: 5px;
+    }
+    .pibby {
+        margin-left: 425px;
+        margin-top: 670px;
+    }
+    .pibbytext {
+        margin-left: 535px;
+        margin-top: 920px;
     }
 
 h2 {
