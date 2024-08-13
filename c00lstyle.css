@@ -1,1 +1,152 @@
 
+.air {
+    margin-left: 1165px;
+    margin-top: 70px;
+    rotate: 30deg;
+}
+.p1 {
+    margin-left: 965px;
+    margin-top: 10px;
+    rotate: -28deg;
+}
+.p2 {
+    margin-left: 965px;
+    margin-top: 720px;
+    rotate: 30deg;
+}
+.banned {
+    margin-left: 845px;
+    margin-top: 0px;
+}
+.thumb1 { 
+    margin-left: 20px;
+    margin-top: 20px;
+    display: block;
+    } 
+.thumb2 { 
+    margin-left: 405px;
+    margin-top: -202px;
+    display: block;
+    } 
+.thumb3 { 
+    margin-left: 20px;
+    margin-top: 20px;
+    display: block;
+    } 
+.thumb4 { 
+    margin-left: 405px;
+    margin-top: -202px;
+    z-index:30;     display: block;
+    } 
+.thumb5 { 
+    margin-left: 20px;
+    margin-top: 20px;
+    display: block;
+    } 
+.thumb6 { 
+    margin-left: 405px;
+    margin-top: -202px;
+    display: block;
+    } 
+.thumb7 { 
+    margin-left: 20px;
+    margin-top: 20px;
+    display: block;
+    } 
+.thumb8 { 
+    margin-left: 405px;
+    margin-top: -202px;
+    z-index:30;     
+    display: block;
+    } 
+ .thumb9 { 
+    margin-left: 20px;
+    margin-top: 20px;
+    display: block;
+    } 
+.thumb10 { 
+    margin-left: 405px;
+    margin-top: -202px;
+    display: block;
+    } 
+.thumb11 { 
+    margin-left: 20px;
+    margin-top: 20px;
+    display: block;
+    } 
+.thumb12 { 
+    margin-left: 405px;
+    margin-top: -202px;
+    z-index:30;     display: block;
+    } 
+.thumb13 { 
+    margin-left: 20px;
+    margin-top: 20px;
+    display: block;
+    } 
+.thumb14 { 
+    margin-left: 405px;
+    margin-top: -202px;
+    display: block;
+    } 
+.thumb15 { 
+    margin-left: 20px;
+    margin-top: 20px;
+    display: block;
+    } 
+.thumb16 { 
+    margin-left: 405px;
+    margin-top: -202px;
+    z-index:30;     
+    display: block;
+    } 
+  .thumb17 { 
+    margin-left: 20px;
+    margin-top: 20px;
+    display: block;
+    } 
+.thumb18 { 
+    margin-left: 405px;
+    margin-top: -202px;
+    z-index:30;     display: block;
+    } 
+.thumb19 { 
+    margin-left: 20px;
+    margin-top: 20px;
+    display: block;
+    } 
+.thumb20 { 
+    margin-left: 405px;
+    margin-top: -202px;
+    display: block;
+    } 
+.thumb21 { 
+    margin-left: 20px;
+    margin-top: 20px;
+    display: block;
+    } 
+.thumb22 { 
+    margin-left: 405px;
+    margin-top: -202px;
+    z-index:30;     
+    display: block;
+    } 
+    
+h2 {
+
+    color:#ffffff
+
+    }
+    p {
+
+        color:#ffffff
+    
+        }
+
+    .fixe {
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        width: 30px;
+
+    }
