@@ -7,34 +7,20 @@ button {
     border: none !important;
     font-size:0;
 }
-.android{
-    background: transparent;
-    border: none !important;
-    font-size:0;
-    cursor: pointer;
-    top:81.7%;
-    left:31.51%;
-    width:350px;
-    height:73px;
-    position: absolute;
-}
-.ios{
-    background: transparent;
-    border: none !important;
-    font-size:0;
-    cursor: pointer;
-    top:81.7%;
-    left:50.50%;
-    width:350px;
-    height:73px;
-    position: absolute;
-}
 .lego {
     margin-left: -265;
     margin-top: -275px;
 } 
 .dl {
     margin-left: -353.5;
+    margin-top: 465px;    
+}
+.android {
+    margin-left: -353.5;
+    margin-top: 465px;    
+} 
+.ios {
+    margin-left: 9.5;
     margin-top: 465px;    
 } 
 .home {
