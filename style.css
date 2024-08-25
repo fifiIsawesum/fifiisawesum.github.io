@@ -41,12 +41,18 @@
         z-index:30; 
         cursor: pointer; 
         } 
-        .icon5 { 
-         margin-left: -673px;
-         margin-top: 305px;
+    .icon5 { 
+        margin-left: -673px;
+        margin-top: 305px;
         z-index:30; 
         cursor: pointer; 
         } 
+    .icon6 { 
+        margin-left: -673px;
+        margin-top: 516px;
+        z-index:30; 
+        cursor: pointer; 
+         } 
     /*change the number below to scale to the appropriate size*/ 
     .thumbnail:hover { 
     transform: scale(1.2); 
