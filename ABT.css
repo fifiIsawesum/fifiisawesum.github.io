@@ -1,0 +1,80 @@
+audio { 
+display:none;
+}
+
+button {
+    background: transparent;
+    border: none !important;
+    font-size:0;
+}
+.android{
+    background: transparent;
+    border: none !important;
+    font-size:0;
+    cursor: pointer;
+    top:81.7%;
+    left:31.51%;
+    width:350px;
+    height:73px;
+    position: absolute;
+}
+.ios{
+    background: transparent;
+    border: none !important;
+    font-size:0;
+    cursor: pointer;
+    top:81.7%;
+    left:50.50%;
+    width:350px;
+    height:73px;
+    position: absolute;
+}
+.lego {
+    margin-left: -265;
+    margin-top: -275px;
+} 
+.dl {
+    margin-left: -353.5;
+    margin-top: 465px;    
+} 
+.home {
+    margin-left: -193.5;
+    margin-top: 765px;    
+} 
+.giantred2 {
+    margin-left: -853.5;
+    margin-top: 65px;    
+} 
+.giantred {
+    margin-left: 453.5;
+    margin-top: 65px;    
+} 
+iframe{
+    margin-top: 45px;
+    width:710;
+    height:400;
+    }
+    
+ .main {   
+     margin-left: 85px;  
+     display: block;
+ }
+    
+.mainglow {
+     margin-left: -785;
+     margin-top: 285px;    
+     display: block;
+}  
+h2 {
+    color:#ffffff
+}
+p {
+    color:#ffffff
+ }
+    .fixe {
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        width: 30px;
+
+    }
