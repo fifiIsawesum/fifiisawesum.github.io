@@ -1,7 +1,9 @@
 audio { 
 display:none;
 }
-
+html {
+    /*width: 196%;*/
+}
 button {
     background: transparent;
     border: none !important;
