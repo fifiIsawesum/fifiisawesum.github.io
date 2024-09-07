@@ -1,116 +1,72 @@
-.thumbnail { 
-    align-items: center;
-    top:-50px; 
-    left:-35px; 
-    display:block; 
-    z-index:30; 
-    cursor: pointer; 
-    -webkit-transition-property: all; 
-    -webkit-transition-duration: 0.46s; 
-    -webkit-transition-timing-function: ease; 
-    } 
-    .d {
-        margin-left: -395px;
-        margin-top: -4px;
+audio { 
+display:none;
+}
+html {
+    /*width: 196%;*/
+}
+button {
+    background: transparent;
+    border: none !important;
+    font-size:0;
+}
+.lego {
+    margin-left: -265;
+    margin-top: -275px;
+} 
+.ver {
+    margin-left: -160;
+    margin-top: 482px;
+} 
+.dl {
+    margin-left: -353.5;
+    margin-top: 465px;    
+}
+.android {
+    margin-left: -353.5;
+    margin-top: 465px;    
+} 
+.ios {
+    margin-left: 9.5;
+    margin-top: 465px;    
+} 
+.home {
+    margin-left: -193.5;
+    margin-top: 765px;    
+} 
+.giantred2 {
+    margin-left: -853.5;
+    margin-top: 65px;    
+} 
+.giantred {
+    margin-left: 453.5;
+    margin-top: 65px;    
+} 
+iframe{
+    margin-top: 45px;
+    width:710;
+    height:400;
     }
-    audio {
-        float: bottom;
-        margin-top:234px;
-      }
-    .icon1 { 
-        margin-left: -273px;
-        margin-top: 305px;
-        z-index:30; 
-        cursor: pointer; 
-        } 
-    .icon2 { 
-        margin-left: -473px;
-        margin-top: 305px;
-        z-index:30; 
-        cursor: pointer; 
-        } 
-    .icon3 { 
-         margin-left: -73px;
-         margin-top: 305px;
-         z-index:30; 
-         cursor: pointer; 
-        } 
-    .icon4 { 
-        margin-left: 123px;
-         margin-top: 305px;
-        z-index:30; 
-        cursor: pointer; 
-        } 
-    .icon5 { 
-        margin-left: -673px;
-        margin-top: 305px;
-        z-index:30; 
-        cursor: pointer; 
-        } 
-    .icon6 { 
-        margin-left: -673px;
-        margin-top: 516px;
-        z-index:30; 
-        cursor: pointer; 
-         } 
-    .icon7 { 
-        margin-left: -473px;
-        margin-top: 516px;
-        z-index:30; 
-        cursor: pointer; 
-         } 
-    .icon8 { 
-        margin-left: -273px;
-        margin-top: 516px;
-        z-index:30; 
-        cursor: pointer; 
-         } 
-    /*change the number below to scale to the appropriate size*/ 
-    .thumbnail:hover { 
-    transform: scale(1.2); 
-    }
-    .heshere {
-        margin-left: 765px;
-        margin-top: -4px;
-    }
-    .wallimg {
-        margin-left: -820px;
-        margin-top: 168px;
-    }
-
-    .wallimgtext {
-        margin-left: -720px;
-        margin-top: 168px;
-    }
-    .nyan {
-        margin-left: -325px;
-        margin-top: 5px;
-    }
-    .pibby {
-        margin-left: 425px;
-        margin-top: 670px;
-    }
-    .pibbytext {
-        margin-left: 535px;
-        margin-top: 920px;
-    }
-
-h2 {
-
-    color:#ffffff
-
-    }
-    p {
-
-        color:#ffffff
     
-        }
-    .bg {
-        width: 100%;
-        height: auto;
-        align-items: center;
-        overflow: hidden;
-        flex-wrap: wrap;
-        display: block;
-        margin-top: 230px; 
+ .main {   
+     margin-left: 85px;  
+     display: block;
+ }
+    
+.mainglow {
+     margin-left: -785;
+     margin-top: 285px;    
+     display: block;
+}  
+h2 {
+    color:#ffffff
+}
+p {
+    color:#ffffff
+ }
+    .fixe {
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        width: 30px;
+
     }
