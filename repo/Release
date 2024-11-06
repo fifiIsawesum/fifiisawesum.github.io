@@ -1,0 +1,8 @@
+Origin: fifi's repo archive
+Label: fifi's repo archive
+Suite: stable
+Version: 1.0
+Codename: fifiisawesumgoodrepo
+Architectures: iphoneos-arm
+Components: main
+Description: yeah yeah yeah i made this with Repo Manager Deluxe
