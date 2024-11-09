@@ -1,0 +1,63 @@
+body {
+  /* background-image: url(images/moment.png);*/
+  background: rgb(42,0,43);
+  background: linear-gradient(90deg, rgba(42,0,43,1) 0%, rgba(213,209,212,1) 50%, rgba(65,63,117,1) 100%);
+   background-size: 3000px 2000px;
+   margin: 0;
+   padding: 0;
+   background-repeat: no-repeat;
+   background-position: center center;
+}
+.box {
+  margin: 118 -690;
+  padding: 0;
+  object-fit: contain;
+  width: 1020px;
+  height: 590px;
+  border-radius: 65px;
+  background: url(images/gggg.png);
+  background-position: left top;
+  background-repeat: repeat;
+  border: 8px solid rgb(10, 0, 26);
+}
+.ifone {
+  pointer-events: none;
+  margin: 70 -695;
+  padding: 0;
+}
+.icon {
+-webkit-transition-property: all; 
+-webkit-transition-duration: 0.46s; 
+-webkit-transition-timing-function: ease; 
+z-index:30; 
+cursor: pointer; 
+width: 200px;
+height: 200px;
+}
+img {
+  margin: 44 11;
+  display: inline-flex;
+  
+  justify-content: space-evenly;
+}
+.top-header { 
+ width:90%; 
+ height:40px; 
+ margin: 0 auto;
+ padding: 0;
+ background-color: #c290ff; 
+ border-bottom: 4px solid #943cfc;
+}
+.button {
+ font-size:16px;
+ margin: 0 5px 0 5px; /* left and right */
+ height: 40px;
+ background: transparent;
+ border: none;
+ color: white;
+ cursor: pointer;
+ 
+ position: relative;
+ top: 50%;
+ transform: translateY(-50%);
+} 

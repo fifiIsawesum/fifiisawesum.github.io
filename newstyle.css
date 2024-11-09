@@ -14,6 +14,18 @@ body {
     margin-top: 310;
     z-index:30;  
     }
+    .fifi{
+      position: relative;
+       margin-left: -560;
+       margin-top: 70;
+       z-index:30;  
+   }
+   .LR {
+    position: relative;
+    margin-left: -1470;
+    margin-top: 43.4;
+    z-index:30;  
+    }
  h2 {
     max-width: 105vw;
     min-width: 105vw;
@@ -53,12 +65,6 @@ body {
     text-shadow: 3px 3px #f3e6ff;
     position: relative;
   }
- .fifi{
-    position: relative;
-     margin-left: -560;
-     margin-top: 70;
-     z-index:30;  
- }
  .top-header { 
    width:90%; 
    height:40px; 
