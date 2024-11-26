@@ -134,3 +134,21 @@ SHA1: 5717d7348bd1a23cc7bb94f659704409a21eeb8a
 SHA256: ea31dd47acfa2c397664ffb19e8bcc130d356d37fad49ccd6c45ebb32f06de69
 SHA521: 7d1ad1d60794c84083cc19539585692d7349a921114ba789b809b1aa6015101f505be5523e615a51b88ee84d840a7293a0ea8c85f9ad280a5122dd63f8909ade
 
+Package: org.h6nry.adowngrader
+Name: Adowngrader
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: Downgrade your apps. Well, at least try it.
+Maintainer: H6nry <henry.anonym@gmail.com>
+Author: H6nry <henry.anonym@gmail.com>
+Section: Tweaks
+Version: 0.0.2-7
+Installed-Size: 304
+Filename: debs/org.h6nry.adowngrader_0.0.2-7_iphoneos-arm.deb
+Depiction: https://theawesumness.github.io/depictions/org.h6nry.adowngrader.html
+Size: 53280
+MD5sum: 814bfbfb309e70b575af5afe9e897e5d
+SHA1: 3d65e66c3736017940560d03cf744c3fc23d3be1
+SHA256: 72a4c1c91746c3bce290710d64f3491469548e5ef4048baeb1aca3a3fccd1674
+SHA521: 030f4c83903592a21f4116e51b4a7fb4f85f67738bc9e2c7a3e09bbc706b03e8454334c9f9866e2d532bc49923dffb034cd38c1be7be43500758fa96203fabd9
+
