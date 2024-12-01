@@ -1,16 +1,20 @@
-body {
-  background: url(images/a.png);
-   background-size: 1800px 1100px;
-   margin: 0;
-   padding: 0;
-   background-repeat: no-repeat;
-   background-position: center center;
+body.pinstripe {
+  background: #c7ced5 url('images/pinstripes.png');
+}
+.box{
+  margin-top: -455;
+width: 500px;
+height: 240px;
+}
+.text{
+width: 500px;
+height: 440px;
 }
 .sigma {
   max-width: 15;
   min-width: 15;
-  font-family: Arial, Helvetica, sans-serif;
-  color: #ffffff;
+/* font-family: Arial, Helvetica, sans-serif;*/
+  color: #000000;
   font-size:59px;
   margin-left: 700;
   margin-top: 80;
@@ -21,8 +25,8 @@ body {
 .erm {
   max-width: 405;
   min-width: 405;
-  font-family: Arial, Helvetica, sans-serif;
-  color: #ffffff;
+ /* font-family: Arial, Helvetica, sans-serif;*/
+  color: #000000;
   font-size:39px;
   margin-left: -1000;
   margin-top: -330;
@@ -31,9 +35,7 @@ body {
   position: relative;
 }
 img {
-  width: 380px;
-  height: 380px;
-  margin: -344 11;
+  margin: 35 11;
   display: inline-flex;
   justify-content: space-evenly;
 }
@@ -44,8 +46,8 @@ img {
   padding: 0;
   background-color: #c290ff; 
   border-bottom: 4px solid #943cfc;
-}
-.button {
+ }
+ .button {
   font-size:16px;
   margin: 0 5px 0 5px; /* left and right */
   height: 40px;
@@ -57,4 +59,14 @@ img {
   position: relative;
   top: 50%;
   transform: translateY(-50%);
-} 
+ } 
+body.white {
+background-color: #ffffff;
+}
+p { margin:4 }
+body {
+   margin: 0;
+   padding: 0;
+   background-repeat: no-repeat;
+   background-position: center center;
+}
