@@ -12,7 +12,7 @@ body {
 }
 .yt {
   position: relative;
-  margin-left: 12;
+  margin-left: 10;
   margin-top: 250;
   height : 238px;
   width : 291px;
@@ -21,44 +21,44 @@ body {
     position: relative;
     height : 485px;
     width : 335px;
-     margin-left: -350;
+     margin-left: -330;
      margin-top: 270;
      z-index:30;  
  }
  h2 {
-    max-width: 70vw;
+    max-width: 80vw;
     min-width: 65vw;
     font-family: 'Courier New', Courier, monospace;
     color: #000000;
     font-size:34px;
     margin-left: 0;
-    margin-top: 40;
+    margin-top: 37;
     z-index:30;  
     padding: 0;
     text-shadow: 3px 3px #f3e6ff;
     position: relative;
   }
   .second {
-    max-width: 70vw;
+    max-width: 80vw;
     min-width: 65vw;
     font-family: 'Courier New', Courier, monospace;
     color: #000000;
     font-size:25px;
     margin-left: 0;
-    margin-top: -20;
+    margin-top: -17;
     z-index:30;  
     padding: 0;
     text-shadow: 3px 3px #f3e6ff;
     position: relative;
   }
   .third {
-    max-width: 70vw;
+    max-width: 80vw;
     min-width: 65vw;
     font-family: 'Courier New', Courier, monospace;
     color: #000000;
     font-size:25px;
     margin-left: 0;
-    margin-top: -10;
+    margin-top: -7;
     z-index:30;  
     padding: 0;
     text-shadow: 3px 3px #f3e6ff;
