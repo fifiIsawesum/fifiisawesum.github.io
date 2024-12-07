@@ -13,7 +13,7 @@ body {
 .yt {
   position: relative;
   margin-left: 10;
-  margin-top: 250;
+  margin-top: 230;
   height : 238px;
   width : 291px;
   }
@@ -22,7 +22,7 @@ body {
     height : 485px;
     width : 335px;
      margin-left: -330;
-     margin-top: 270;
+     margin-top: 250;
      z-index:30;  
  }
  h2 {
@@ -32,7 +32,7 @@ body {
     color: #000000;
     font-size:34px;
     margin-left: 0;
-    margin-top: 37;
+    margin-top: 17;
     z-index:30;  
     padding: 0;
     text-shadow: 3px 3px #f3e6ff;
@@ -126,7 +126,7 @@ body {
     font-family: 'Courier New', Courier, monospace;
     color: #000000;
     font-size:44px;
-    margin-left: 220;
+    margin-left: 430;
     margin-top: 80;
     z-index:30;  
     padding: 0;
@@ -139,7 +139,7 @@ body {
     font-family: 'Courier New', Courier, monospace;
     color: #000000;
     font-size:35px;
-    margin-left: 220;
+    margin-left: 430;
     margin-top: -20;
     z-index:30;  
     padding: 0;
@@ -152,7 +152,7 @@ body {
     font-family: 'Courier New', Courier, monospace;
     color: #000000;
     font-size:35px;
-    margin-left: 220;
+    margin-left: 430;
     margin-top: -10;
     z-index:30;  
     padding: 0;
