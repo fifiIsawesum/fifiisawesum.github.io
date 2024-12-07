@@ -1,26 +1,120 @@
+/*--------------------------------------------------------------------------------------------------------------*/
+   /*poorly made mobile compatibility*/
 body {
+  /* background-image: url(images/moment.png);*/
+  background: rgb(17,0,69);
+  background: linear-gradient(90deg, rgba(17,0,69,1) 0%, rgba(235,205,255,1) 50%, rgba(255,158,232,1) 100%);
+   background-size: 2000px 1900px;
+   margin: 0;
+   padding: 0;
+   background-repeat: no-repeat;
+   background-position: center center;
+}
+.yt {
+  position: relative;
+  margin-left: 12;
+  margin-top: 250;
+  height : 238px;
+  width : 291px;
+  }
+  .fifi{
+    position: relative;
+    height : 485px;
+    width : 335px;
+     margin-left: -350;
+     margin-top: 270;
+     z-index:30;  
+ }
+ h2 {
+    max-width: 105vw;
+    min-width: 105vw;
+    font-family: 'Courier New', Courier, monospace;
+    color: #000000;
+    font-size:40px;
+    margin-left: 0;
+    margin-top: 40;
+    z-index:30;  
+    padding: 0;
+    text-shadow: 3px 3px #f3e6ff;
+    position: relative;
+  }
+  .second {
+    max-width: 105vw;
+    min-width: 105vw;
+    font-family: 'Courier New', Courier, monospace;
+    color: #000000;
+    font-size:31px;
+    margin-left: 0;
+    margin-top: -20;
+    z-index:30;  
+    padding: 0;
+    text-shadow: 3px 3px #f3e6ff;
+    position: relative;
+  }
+  .third {
+    max-width: 105vw;
+    min-width: 105vw;
+    font-family: 'Courier New', Courier, monospace;
+    color: #000000;
+    font-size:31px;
+    margin-left: 0;
+    margin-top: -10;
+    z-index:30;  
+    padding: 0;
+    text-shadow: 3px 3px #f3e6ff;
+    position: relative;
+  }
+ .top-header { 
+   width:90%; 
+   height:40px; 
+   margin: 0 auto;
+   padding: 0;
+   background-color: #c290ff; 
+   border-bottom: 4px solid #943cfc;
+ }
+ .button {
+   font-size:16px;
+   margin: 0 5px 0 5px; /* left and right */
+   height: 40px;
+   background: transparent;
+   border: none;
+   color: white;
+   cursor: pointer;
+   
+   position: relative;
+   top: 50%;
+   transform: translateY(-50%);
+ } 
+/*--------------------------------------------------------------------------------------------------------------*/
+   /*poorly made pc compatibility*/
+ @media (min-width: 983px) {
+  body {
     /* background-image: url(images/moment.png);*/
     background: rgb(17,0,69);
     background: linear-gradient(90deg, rgba(17,0,69,1) 0%, rgba(235,205,255,1) 50%, rgba(255,158,232,1) 100%);
-     background-size: 3000px 2000px;
+     background-size: 2000px 2000px;
      margin: 0;
      padding: 0;
      background-repeat: no-repeat;
      background-position: center center;
  }
- .yt {
+  .fifi {
     position: relative;
+    height : 606px;
+    width : 419px;
+     margin-left: -560;
+     margin-top: 70;
+     z-index:30; 
+  }
+  .yt {
+    position: relative;
+    height : 298px;
+    width : 364px;
     margin-left: 70;
     margin-top: 310;
-    z-index:30;  
-    }
-    .fifi{
-      position: relative;
-       margin-left: -560;
-       margin-top: 70;
-       z-index:30;  
-   }
-   .LR {
+    z-index:30; 
+  }
+  .LR {
     position: relative;
     margin-left: -1470;
     margin-top: 43.4;
@@ -65,24 +159,4 @@ body {
     text-shadow: 3px 3px #f3e6ff;
     position: relative;
   }
- .top-header { 
-   width:90%; 
-   height:40px; 
-   margin: 0 auto;
-   padding: 0;
-   background-color: #c290ff; 
-   border-bottom: 4px solid #943cfc;
- }
- .button {
-   font-size:16px;
-   margin: 0 5px 0 5px; /* left and right */
-   height: 40px;
-   background: transparent;
-   border: none;
-   color: white;
-   cursor: pointer;
-   
-   position: relative;
-   top: 50%;
-   transform: translateY(-50%);
- } 
+}
