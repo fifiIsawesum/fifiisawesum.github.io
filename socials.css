@@ -100,7 +100,7 @@ body {
 
 /*--------------------------------------------------------------------------------------------------------------*/
    /*poorly made pc compatibility*/
-   @media (min-width: 983px) {
+   @media (min-width: 943px) {
  .box {
   margin: 435 0;
   object-fit: contain;
