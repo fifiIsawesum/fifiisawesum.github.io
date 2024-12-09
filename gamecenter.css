@@ -1,3 +1,5 @@
+/*--------------------------------------------------------------------------------------------------------------*/
+   /*poorly made mobile compatibility*/
 .top-header { 
     width:90%; 
     height:40px; 
@@ -21,6 +23,9 @@
 body.white {
   background-color: #ffffff;
 }
+body.pinstripe {
+  background: #c7ced5 url('images/pinstripes.png');
+}
 p { margin:4 }
 body {
      margin: 0;
@@ -28,17 +33,66 @@ body {
      background-repeat: no-repeat;
      background-position: center center;
   }
-.box {
-  z-index:30;
-  position: relative;
-    width: 1100px;
-    height: 400px;
-  }
-body.pinstripe {
-  background: #c7ced5 url('images/pinstripes.png');
-}
-img {
+  .box {
+    z-index:30;
+    position: relative;
+    width: 370px;
+    height: 560px;
+    }
+  img {
+    height: 269;
+    width: 358;
     margin: 5 auto;
     position: relative;
     z-index:30;
+  }
+/*--------------------------------------------------------------------------------------------------------------*/
+   /*poorly made pc compatibility*/
+  @media (min-width: 943px) {
+    .top-header { 
+      width:90%; 
+      height:40px; 
+      margin: 0 auto;
+      padding: 0;
+      background-color: #c290ff; 
+      border-bottom: 4px solid #943cfc;
+     }
+     .button {
+      font-size:16px;
+      margin: 0 5px 0 5px; /* left and right */
+      height: 40px;
+      background: transparent;
+      border: none;
+      color: white;
+      cursor: pointer;
+      position: relative;
+      top: 50%;
+      -webkit-transform: translateY(-50%);
+     } 
+  body.white {
+    background-color: #ffffff;
+  }
+  body.pinstripe {
+    background: #c7ced5 url('images/pinstripes.png');
+  }
+  p { margin:4 }
+  body {
+       margin: 0;
+       padding: 0;
+       background-repeat: no-repeat;
+       background-position: center center;
+    }
+    .box {
+      z-index:30;
+      width: 1100px;
+      height: 400px;
+      position: relative;
+      }
+    img {
+      width: 506;
+      height: 379;
+      margin: 5 auto;
+      position: relative;
+      z-index:30;
+    }
   }
