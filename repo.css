@@ -1,35 +1,45 @@
+/*--------------------------------------------------------------------------------------------------------------*/
+   /*poorly made mobile compatibility*/
 body.pinstripe {
   background: #c7ced5 url('images/pinstripes.png');
 }
 .box{
-  margin-top: -455;
-width: 500px;
+margin-top: -925;
+width: 420px;
 height: 240px;
 }
+.Cydia{
+width: 288px;
+height: 288px;
+}
+.GameCenter{
+width: 376px;
+height: 130px;
+}
 .text{
-width: 500px;
+width: 300px;
 height: 440px;
 }
-.sigma {
+.text1 {
   max-width: 15;
   min-width: 15;
 /* font-family: Arial, Helvetica, sans-serif;*/
   color: #000000;
-  font-size:59px;
-  margin-left: 700;
-  margin-top: 80;
+  font-size:49px;
+  -webkit-transform: translateX(-370%);
+  margin-top: 500;
   z-index:30;  
   padding: 0;
   position: relative;
 }
-.erm {
+.text2 {
   max-width: 405;
   min-width: 405;
  /* font-family: Arial, Helvetica, sans-serif;*/
   color: #000000;
-  font-size:39px;
-  margin-left: -1000;
-  margin-top: -330;
+  font-size:34px;
+  -webkit-transform: translateX(-11.5%);
+  margin-top: 0;
   z-index:30;  
   padding: 0;
   position: relative;
@@ -71,3 +81,53 @@ body {
    background-repeat: no-repeat;
    background-position: center center;
 }
+/*--------------------------------------------------------------------------------------------------------------*/
+   /*poorly made pc compatibility*/
+   @media (min-width: 1243px) {
+    .box{
+    margin-top: -455;
+    width: 570px;
+    height: 240px;
+    }
+    .Cydia{
+      width: 380px;
+      height: 380px;
+      }
+      .GameCenter{
+      width: 470px;
+      height: 163px;
+      }
+    .text{
+    width: 500px;
+    height: 440px;
+    }
+    .text1 {
+      max-width: 15;
+      min-width: 15;
+    /* font-family: Arial, Helvetica, sans-serif;*/
+      color: #000000;
+      font-size:59px;
+      -webkit-transform: translateX(3050%);
+      margin-top: 80;
+      z-index:30;  
+      padding: 0;
+      position: relative;
+    }
+    .text2 {
+      max-width: 405;
+      min-width: 405;
+     /* font-family: Arial, Helvetica, sans-serif;*/
+      color: #000000;
+      font-size:39px;
+      -webkit-transform: translateX(-123.5%);
+      margin-top: -330;
+      z-index:30;  
+      padding: 0;
+      position: relative;
+    }
+    img {
+      margin: 14;
+      display: inline-flex;
+      justify-content: space-evenly;
+    }
+  }
