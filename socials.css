@@ -31,12 +31,11 @@
     margin: 20 0;
   }
     .fifi{
-      width: 263px;
-      height: 367px;
-      rotate: 89deg;
+      height: 263px;
+      width: 367px;
       position: relative;
-       margin-left: -220;
-       margin-top: 194;
+       margin-left: -270;
+       margin-top: 230;
        z-index:30;  
    }
    .LR {
@@ -135,12 +134,11 @@
     margin: 0 11;
   }
     .fifi{
-      width: 239px;
-      height: 334px;
-      rotate: 89deg;
+      height: 239px;
+      width: 334px;
       position: relative;
-       margin-left: -300;
-       margin-top: 70;
+       margin-left: -345;
+       margin-top: 110;
        z-index:30;  
    }
  h2 {
