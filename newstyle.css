@@ -113,6 +113,8 @@ body {
   width : 419px;
   margin-top: -210;
   margin-left: -760;
+  -webkit-margin-top: -210;
+  -webkit-margin-left: -760;
 }
   .yt {
     position: relative;
