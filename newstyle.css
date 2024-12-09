@@ -111,10 +111,12 @@ body {
   object-fit: contain;
   height : 606px;
   width : 419px;
+  margin-top: -210px;
+  -webkit-transform: translateX(-90.7%);
+  /*
   margin-top: -210;
-  margin-left: -760;
-  -webkit-margin-top-collapse: -210;
-  -webkit-margin-bottom-collapse: -760;
+  margin-left: 289;
+  */
 }
   .yt {
     position: relative;
