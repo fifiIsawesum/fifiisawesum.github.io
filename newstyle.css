@@ -17,9 +17,17 @@ body {
     position: relative;
     height : 485px;
     width : 335px;
-    margin: 300 -180;
-     z-index:30;  
+    z-index:30;  
  }
+ .box {
+  z-index:30; 
+  position: relative;
+  object-fit: contain;
+  height : 485px;
+  width : 335px;
+  margin-top: 0;
+  margin-left: 0;
+}
  h2 {
     max-width: 80vw;
     min-width: 65vw;
@@ -91,13 +99,21 @@ body {
      background-image: url('images/lowres.png');
      background-position: center center;
   }
-  .fifi {
+  .fifi{
     position: relative;
     height : 606px;
     width : 419px;
-    margin: 70 -560;
-    z-index:30; 
-  }
+    z-index:30;  
+ }
+ .box {
+  z-index:30; 
+  position: relative;
+  object-fit: contain;
+  height : 606px;
+  width : 419px;
+  margin-top: -210;
+  margin-left: -760;
+}
   .yt {
     position: relative;
     height : 187px;
