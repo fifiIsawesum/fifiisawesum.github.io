@@ -4,7 +4,9 @@ body.pinstripe {
   background: #c7ced5 url('images/pinstripes.png');
 }
 .box{
+  background-color: #943cfc;
 margin-top: -925;
+text-align: center;
 width: 310px;
 height: 240px;
 }
@@ -45,7 +47,7 @@ height: 440px;
   position: relative;
 }
 img {
-  margin: 14;
+  margin-top: 14;
   display: inline-flex;
   justify-content: space-evenly;
 }
