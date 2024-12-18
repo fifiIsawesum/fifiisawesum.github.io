@@ -48,8 +48,9 @@ body {
   }
 /*--------------------------------------------------------------------------------------------------------------*/
    /*poorly made pc compatibility*/
-  @media (min-width: 943px) {
+  @media (min-width: 1083px) {
     .top-header { 
+      filter: drop-shadow(5px 10px 20px rgba(34, 0, 44, 0.838));
       width:90%; 
       height:40px; 
       margin: 0 auto;
