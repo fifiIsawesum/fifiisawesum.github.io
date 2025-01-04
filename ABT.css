@@ -1,33 +1,53 @@
-audio { 
-display:none;
-}
-html {
-    /*width: 196%;*/
-}
-button {
-    background: transparent;
-    border: none !important;
-    font-size:0;
-}
+/*--------------------------------------------------------------------------------------------------------------*/
+   /*poorly made mobile compatibility*/
+   body {
+    /* background-image: url(images/moment.png);*/
+     margin: 0;
+     padding: 0;
+     background-image: url('images/dfgdfgdfgdfgdfgdfgdfgdfgdfgdfg.png');
+     background-position: center center;
+  }
+   .top-header { 
+    filter: drop-shadow(5px 20px 20px rgba(34, 0, 44, 0.838));
+     width:90%; 
+     height:40px; 
+     margin: 0 auto;
+     padding: 0;
+     background-color: #c290ff; 
+     border-bottom: 4px solid #943cfc;
+   }
+   .button {
+     font-size:16px;
+     margin: 0 5px 0 2px; /* left and right */
+     height: 40px;
+     background: transparent;
+     border: none;
+     color: white;
+     cursor: pointer;
+     
+     position: relative;
+     top: 50%;
+     -webkit-transform: translateY(-50%);
+   } 
 .lego {
-    margin-left: -265;
-    margin-top: -275px;
+    margin-left: -220;
+    margin-top: 0px;
 } 
 .ver {
-    margin-left: -160;
-    margin-top: 482px;
+    margin-left: -205;
+    margin-top: 42px;
 } 
 .dl {
-    margin-left: -353.5;
-    margin-top: 465px;    
+    margin-left: -360;
+    margin-top: -25px;    
 }
 .android {
-    margin-left: -353.5;
-    margin-top: 465px;    
+    margin-left: -360;
+    margin-top: -25px;    
 } 
 .ios {
-    margin-left: 9.5;
-    margin-top: 465px;    
+    margin-left: 4;
+    margin-top: -25px;    
 } 
 .home {
     margin-left: -193.5;
@@ -35,26 +55,32 @@ button {
 } 
 .giantred2 {
     margin-left: -853.5;
-    margin-top: 65px;    
+    margin-top: -400px;    
 } 
 .giantred {
     margin-left: 453.5;
-    margin-top: 65px;    
+    margin-top: -400px;    
 } 
 iframe{
-    margin-top: 45px;
-    width:710;
-    height:400;
+    margin-left: 43;
+    margin-top: 45;    
+    display: block;
+    width:568;
+    height:320;
+    }
+    .f{
+        z-index:30; 
+        position: relative;
+        object-fit: contain;
+        height : 410px;
+        width : 658px;
+        margin-top: 200;
+        margin-left: 0;
     }
     
- .main {   
-     margin-left: 85px;  
-     display: block;
- }
-    
 .mainglow {
-     margin-left: -785;
-     margin-top: 285px;    
+     margin-left: 0;
+     margin-top: 0;    
      display: block;
 }  
 h2 {
