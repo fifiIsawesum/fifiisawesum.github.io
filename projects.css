@@ -1,69 +1,56 @@
 body {
   /* background-image: url(images/moment.png);*/
-  background: rgb(42,0,43);
-  background: linear-gradient(90deg, rgba(42,0,43,1) 21%, rgba(232,183,255,1) 50%, rgba(65,63,117,1) 79%);
-   background-size: 4000px 4000px;
    margin: 0;
    padding: 0;
-   background-repeat: no-repeat;
+   background-image: url('images/lowre.png');
    background-position: center center;
 }
-.mods {
-  margin: 118;
-  margin-left: -650;
+.smallbox {
+  background-position: center center;
+  background-size: 100%;
+  background-image: url('images/maid.png');
+  margin-top: -30px;
   padding: 0;
-  object-fit: contain;
-  width: 420px;
-  height: 590px;
-}
-.games {
-  margin: -708;
-  padding: 0;
-  object-fit: contain;
-  width: 420px;
-  height: 590px;
-}
-.channels {
-  margin: 118;
-  margin-right: -645;
-  padding: 0;
-  object-fit: contain;
-  width: 420px;
-  height: 590px;
+  width: 399px;
+  height: 329px;
 }
 .icon {
 z-index:30; 
 cursor: pointer; 
-width: 260px;
-height: 156px;
-
+width: 155px;
+height: 94px;
 }
 img {
-  margin: 14 11;
+  margin: 6 6;
   display: inline-flex;
   justify-content: space-between;
 }
-.box {
-  margin: -767 -690;
+h2{
+  max-width: 70vw;
+  min-width: 70vw;
+  font-family: 'Courier New', Courier, monospace;
+  color: #ffffff;
+  font-size:44px;
+  margin-top: -520;
+  z-index:30;  
   padding: 0;
-  object-fit: contain;
-  width: 1178px;
-  height: 674px;
-  pointer-events: none;
-  background: url(images/maid.png);
+  text-shadow: 3px 3px #000000;
+  position: relative;
 }
-.nyan {
-  margin-left: -141;
-  margin-top: -120px;
+.fifi{
+  z-index:30;
+  position: relative;
+  height: 0px;
+  width: 0px;
 }
-.forgive {
-  margin: -272 0;
-  padding: 0;
+.fifibox {
+  z-index:30; 
+  position: relative;
   object-fit: contain;
-  width: 1178px;
-  height: 674px;
-  pointer-events: none;
-  background: url(images/forgive.png);
+  height: 523px;
+   width: 307px;
+   margin-top: 40px;
+   -webkit-transform: translateX(90.7%);
 }
 .top-header { 
  filter: drop-shadow(5px 20px 20px rgba(34, 0, 44, 0.838));
@@ -87,3 +74,85 @@ img {
  top: 50%;
  -webkit-transform: translateY(-50%);
 } 
+/*--------------------------------------------------------------------------------------------------------------*/
+   /*poorly made pc compatibility*/
+   @media (min-width: 983px) {
+body {
+  /* background-image: url(images/moment.png);*/
+   margin: 0;
+   padding: 0;
+   background-image: url('images/lowre.png');
+   background-position: center center;
+}
+.smallbox {
+  background-position: center center;
+  background-size: 100%;
+  background-image: url('images/maid.png');
+  margin-top: -30px;
+  -webkit-transform: translateX(-55.7%);
+  padding: 0;
+  width: 570px;
+  height: 470px;
+}
+.icon {
+z-index:30; 
+cursor: pointer; 
+width: 221px;
+height: 134px;
+}
+img {
+  margin: 6 6;
+  display: inline-flex;
+  justify-content: space-between;
+}
+h2{
+  max-width: 70vw;
+  min-width: 70vw;
+  font-family: 'Courier New', Courier, monospace;
+  color: #ffffff;
+  font-size:44px;
+  margin-left: -630;
+  margin-top: -420;
+  z-index:30;  
+  padding: 0;
+  text-shadow: 3px 3px #000000;
+  position: relative;
+}
+.fifi{
+  z-index:30;
+  position: relative;
+  height: 523px;
+  width: 477px;
+}
+.fifibox {
+  z-index:30; 
+  position: relative;
+  object-fit: contain;
+  height: 523px;
+   width: 307px;
+   margin-top: 40px;
+   -webkit-transform: translateX(90.7%);
+}
+.top-header { 
+ filter: drop-shadow(5px 20px 20px rgba(34, 0, 44, 0.838));
+ width:90%; 
+ height:40px; 
+ margin: 0 auto;
+ padding: 0;
+ background-color: #c290ff; 
+ border-bottom: 4px solid #943cfc;
+}
+.button {
+ font-size:16px;
+ margin: 0 5px 0 2px; /* left and right */
+ height: 40px;
+ background: transparent;
+ border: none;
+ color: white;
+ cursor: pointer;
+ 
+ position: relative;
+ top: 50%;
+ -webkit-transform: translateY(-50%);
+} 
+}
