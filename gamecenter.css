@@ -51,6 +51,10 @@ body {
   margin: 6;
   font-size:20px;
 }
+.bi{
+  margin: 6;
+  font-size:18px;
+}
    /*poorly made pc compatibility*/
   @media (min-width: 1083px) {
     .top-header { 
