@@ -29,13 +29,32 @@
      top: 50%;
      -webkit-transform: translateY(-50%);
    } 
+ .guy {
+    margin: 0 2; 
+ }
+ .box {
+  position: relative;
+  object-fit: contain;
+  height : 75px;
+  width : 716px;
+  margin-top: 0;
+  margin-left: 0;
+}
+ .box2 {
+  position: relative;
+  object-fit: contain;
+  height : 75px;
+  width : 716px;
+  margin-top: -75;
+  margin-left: 0;
+}
 .lego {
     margin-left: -220;
     margin-top: 0px;
 } 
 .ver {
     margin-left: -205;
-    margin-top: 42px;
+    margin-top: 0px;
 } 
 .dl {
     margin-left: -360;
@@ -61,9 +80,9 @@
     margin-left: 453.5;
     margin-top: -400px;    
 } 
-iframe{
-    margin-left: 43;
-    margin-top: 45;    
+.bird{  
+    margin-left: 45;
+    margin-top: 45;   
     display: block;
     width:568;
     height:320;
