@@ -25,7 +25,7 @@ body {
   object-fit: contain;
   height : 485px;
   width : 335px;
-  margin-top: -50;
+  margin-top: -30;
   margin-left: 0;
 }
  h2 {
@@ -78,8 +78,9 @@ body {
    background-position: center center;
  }
  .button {
-   font-size:16px;
-   margin: 0 16px 0 2px; /* left and right */
+   font-family:Arial,Helvetica,sans-serif;
+   font-size:15px;
+   margin: 0 15px 0 2px; /* left and right */
    height: 40px;
    background: transparent;
    border: none;
@@ -188,8 +189,10 @@ body {
    background-image: url('images/grad.png');
    background-position: center center;
  }
+
  .button {
-   font-size:16px;
+   font-family:Arial,Helvetica,sans-serif;
+   font-size:15px;
    margin: 0 25px 0 2px; /* left and right */
    height: 40px;
    background: transparent;
