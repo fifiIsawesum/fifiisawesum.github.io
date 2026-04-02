@@ -4,8 +4,16 @@ body {
   /* background-image: url(images/moment.png);*/
    margin: 0;
    padding: 0;
-   background-image: url('images/lev.png');
+   background-image: url('images/lowres.png');
    background-position: center center;
+}
+.box {
+  z-index:30; 
+  margin: 330 0;
+  position: relative;
+  object-fit: contain;
+  width: 600px;
+  height: 440px;
 }
 .yt {
   position: relative;
@@ -15,9 +23,10 @@ body {
   }
   .fifi{
     position: relative;
-    height : 485px;
-    width : 335px;
+    height : 239px;
+    width : 354px;
     z-index:30;  
+    display: block
  }
  .box {
   z-index:30; 
@@ -31,9 +40,9 @@ body {
  h2 {
     max-width: 80vw;
     min-width: 65vw;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Arial, Helvetica, sans-serif;
     color: #ffffff;
-    font-size:34px;
+    font-size:25px;
     margin-top: 17;
     z-index:30;  
     padding: 0;
@@ -43,9 +52,8 @@ body {
   .second {
     max-width: 80vw;
     min-width: 65vw;
-    font-family: 'Courier New', Courier, monospace;
     color: #ffffff;
-    font-size:25px;
+    font-size:19px;
     margin-top: -17;
     z-index:30;  
     padding: 0;
@@ -55,9 +63,8 @@ body {
   .third {
     max-width: 80vw;
     min-width: 65vw;
-    font-family: 'Courier New', Courier, monospace;
     color: #ffffff;
-    font-size:25px;
+    font-size:19px;
     margin-top: -7;
     z-index:30;  
     padding: 0;
@@ -95,27 +102,22 @@ body {
     /* background-image: url(images/moment.png);*/
      margin: 0;
      padding: 0;
-     background-image: url('images/lev.png');
+     background-image: url('images/lowres.png');
      background-position: center center;
   }
   .fifi{
     position: relative;
-    height : 606px;
-    width : 419px;
+    height : 368px;
+    width : 544px;
+    display: block;
     z-index:30;  
  }
- .box {
+.box {
   z-index:30; 
   position: relative;
   object-fit: contain;
-  height : 606px;
-  width : 419px;
-  margin-top: -210px;
-  -webkit-transform: translateX(-90.7%);
-  /*
-  margin-top: -210;
-  margin-left: 289;
-  */
+  width: 550px;
+  height: 420px;
 }
   .yt {
     position: relative;
@@ -133,10 +135,10 @@ body {
  h2 {
     max-width: 70vw;
     min-width: 70vw;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Arial, Helvetica, sans-serif;
     color: #ffffff;
-    font-size:44px;
-    margin-top: 80;
+    font-size:34px;
+    margin-top: 10;
     z-index:30;  
     padding: 0;
     text-shadow: 3px 3px #000000;
@@ -145,9 +147,8 @@ body {
   .second {
     max-width: 70vw;
     min-width: 70vw;
-    font-family: 'Courier New', Courier, monospace;
     color: #ffffff;
-    font-size:35px;
+    font-size:28px;
     margin-top: -20;
     z-index:30;  
     padding: 0;
@@ -157,9 +158,8 @@ body {
   .third {
     max-width: 70vw;
     min-width: 70vw;
-    font-family: 'Courier New', Courier, monospace;
     color: #ffffff;
-    font-size:35px;
+    font-size:28px;
     margin-top: -10;
     z-index:30;  
     padding: 0;
