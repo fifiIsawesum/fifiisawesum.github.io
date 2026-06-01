@@ -1,5 +1,3 @@
-/*--------------------------------------------------------------------------------------------------------------*/
-   /*poorly made mobile compatibility*/
    body {
     /* background-image: url(images/moment.png);*/
      margin: 0;
@@ -7,133 +5,53 @@
      background-image: url('images/lowress.png');
      background-position: center center;
   }
-.textshit {
-  z-index:30; 
-  float: none;
-  margin: -1630 0;
-  object-fit: contain;
-  width: 470px;
-  height: 300px;
-}
-.box {
-  z-index:30; 
-  margin: 330 0;
-  object-fit: contain;
-  width: 300px;
-  height: 1040px;
-}
-.icon {
-  cursor: pointer; 
-  width: 80px;
-  height: 80px;
-  }
-  img {
-    margin: 20 0;
-  }
-    .fifi{
-      height: 263px;
-      width: 367px;
-      position: relative;
-       margin-left: -305;
-       margin-top: 130;
-       z-index:30;  
-   }
-   .LR {
-    position: relative;
-    margin-left: -1470;
-    margin-top: 43.4;
-    z-index:30;  
-    }
- h2 {
-  text-align: center;
-    max-width: 105vw;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #FFFFFF;
-    font-size:35px;
-    margin-left: 0;
-    margin-top: -890;
-    z-index:30;  
-    padding: 0;
-    text-shadow: 5px 5px #000000;
-    position: relative;
-  }
-  .second {
-    max-width: 105vw;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #FFFFFF;
-    font-size:31px;
-    margin-left: 0;
-    margin-top: -20;
-    z-index:30;  
-    padding: 0;
-    text-shadow: px 3px #000000;
-    position: relative;
-  }
-  .third {
-    max-width: 105vw;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #FFFFFF;
-    font-size:31px;
-    margin-left: 0;
-    margin-top: -20;
-    z-index:30;  
-    padding: 0;
-    text-shadow: px 3px #000000;
-    position: relative;
-  }
-  body {
-    background-image: url('images/lowress.png');
-    background-position: center;
- }
-  .top-header { 
-   box-shadow: 0px 9px 40px rgb(0, 0, 0);
-   width:100%; 
-   height:44px; 
-   margin: 0 auto;
-   padding: 0;
-   background-color: #c290ff; 
-   background-image: url('images/grad.png');
-   background-position: center center;
- }
- .button {
-   font-family:Arial,Helvetica,sans-serif;
-   font-size:15px;
-   margin: 0 15px 0 2px; /* left and right */
-   height: 40px;
-   background: transparent;
-   border: none;
-   color: rgb(167, 167, 167);
-   cursor: pointer;
-   text-shadow: 0px 4px 5px  black;
-   position: relative;
-   top: 50%;
-   -webkit-transform: translateY(-50%);
- }
-
-/*--------------------------------------------------------------------------------------------------------------*/
-   /*poorly made pc compatibility*/
-   @media (min-width: 943px) {
  .box {
-  margin: 340 0;
-  object-fit: contain;
-  width: 400px;
-  height: 100px;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px; 
+  background-color: #000000d8;
+  border: 4px solid rgb(167, 167, 167);
+  box-shadow: 0px 4px 5px  black;
+  margin: 0 40;
+  width: 260px;
+  height: 393px;
 }
-.textshit {
-  float: none;
-  position: relative;
-  margin: 0 0;
+ .mainbox {
+  display: flex;
+  /*background-color: aqua;*/
+  margin: 40 0;
   object-fit: contain;
-  width: 720px;
-  height: 340px;
+  width: 1000px;
+  height: 400px;
+}
+ .textbox {
+  background-color: #000000d8;
+  border: 4px solid rgb(167, 167, 167);
+  box-shadow: 0px 4px 5px  black;
+  width: 913px;
+  height: 40px;
+}
+ h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(167, 167, 167);
+  text-shadow: 0px 4px 5px  black;
+  font-size:30px;
+}
+ .shittext {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(167, 167, 167);
+  margin: 0 0;
+  text-shadow: 0px 4px 5px  black;
+  font-size:30px;
 }
 .icon {
+  border-top: 4px solid rgb(167, 167, 167);
+  padding-top: 20px;
+  border-bottom: 4px solid rgb(167, 167, 167);
+  padding-bottom: 20px;
   cursor: pointer; 
-  width: 100px;
-  height: 100px;
-  }
-  img {
-    margin: 0 11;
+  width: 170px;
+  height: 170px;
   }
     .fifi{
       height: 239px;
@@ -143,27 +61,14 @@
        margin-top: 110;
        z-index:30;  
    }
- h2 {
-  text-align: center;
-    max-width: 105vw;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #FFFFFF;
-    font-size:44px;
-    margin-top: -740;
-    z-index:30;  
-    padding: 0;
-    text-shadow: 5px 5px #000000;
-    position: relative;
-  }
   .second {
     max-width: 105vw;
     font-family: Arial, Helvetica, sans-serif;
-    color: #FFFFFF;
+    color: rgb(167, 167, 167);
     font-size:40px;
     margin-top: -20;
     z-index:30;  
     padding: 0;
-    text-shadow: px 3px #000000;
     position: relative;
   }
   .third {
@@ -201,4 +106,3 @@
    top: 50%;
    -webkit-transform: translateY(-50%);
  }
-}
