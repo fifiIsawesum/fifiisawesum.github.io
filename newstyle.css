@@ -40,13 +40,13 @@ body {
  h2 {
     max-width: 80vw;
     min-width: 65vw;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(167, 167, 167);
+    text-shadow: 0px 4px 5px  black;
     font-size:25px;
     margin-top: 17;
     z-index:30;  
     padding: 0;
-    text-shadow: 5px 3px #000000;
     position: relative;
   }
   .second {
@@ -57,7 +57,9 @@ body {
     margin-top: -17;
     z-index:30;  
     padding: 0;
-    text-shadow: 3px 3px #000000;
+     font-family: Arial, Helvetica, sans-serif;
+  color: rgb(167, 167, 167);
+    text-shadow: 0px 4px 5px  black;
     position: relative;
   }
   .third {
@@ -68,7 +70,9 @@ body {
     margin-top: -7;
     z-index:30;  
     padding: 0;
-    text-shadow: 3px 3px #000000;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(167, 167, 167);
+    text-shadow: 0px 4px 5px  black;
     position: relative;
   }
   .top-header { 
@@ -135,35 +139,37 @@ body {
  h2 {
     max-width: 70vw;
     min-width: 70vw;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(167, 167, 167);
+    text-shadow: 0px 4px 5px  black;
     font-size:34px;
     margin-top: 10;
     z-index:30;  
     padding: 0;
-    text-shadow: 3px 3px #000000;
     position: relative;
   }
   .second {
     max-width: 70vw;
     min-width: 70vw;
-    color: #ffffff;
     font-size:28px;
     margin-top: -20;
     z-index:30;  
     padding: 0;
-    text-shadow: 3px 3px #000000;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(167, 167, 167);
+    text-shadow: 0px 4px 5px  black;
     position: relative;
   }
   .third {
     max-width: 70vw;
     min-width: 70vw;
-    color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(167, 167, 167);
+    text-shadow: 0px 4px 5px  black;
     font-size:28px;
     margin-top: -10;
     z-index:30;  
     padding: 0;
-    text-shadow: 3px 3px #000000;
     position: relative;
   }
     .top-header { 
