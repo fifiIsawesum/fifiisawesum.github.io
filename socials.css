@@ -5,6 +5,16 @@
      background-image: url('images/lowress.png');
      background-position: center center;
   }
+  .socialsbox {
+   align-items: center;
+  flex-direction: column;
+  gap: 30px; 
+  margin: 0 0;
+  position: relative;
+  object-fit: contain;
+  width: 400px;
+  height: 100px;
+}
  .box {
   align-items: center;
   flex-direction: column;
